@@ -23,5 +23,4 @@ class Ability:
     def on_turn_ends(self, **kwargs):
         pass
 
-
     pass

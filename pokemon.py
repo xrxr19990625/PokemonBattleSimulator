@@ -144,6 +144,36 @@ class Pokemon:
     def get_hp_av(self):
         return self.actual_value_['hp']
 
+    def on_status_change(self):
+        pass
+
+    def on_item_change(self):
+        pass
+
+    def on_weather_change(self):
+        pass
+
+    def on_terrain_change(self):
+        pass
+
+    def on_ability_value_change(self):
+        pass
+
+    def on_faint(self):
+        pass
+
+    def on_switch_in(self):
+        pass
+
+    def on_switch_out(self):
+        pass
+
+    def on_turn_begins(self):
+        pass
+
+    def on_turn_ends(self):
+        pass
+
 
 class SingleTypePokemon(Pokemon):
     t1_ = None
